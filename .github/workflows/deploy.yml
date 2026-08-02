@@ -46,15 +46,6 @@ jobs:
         uses: azure/CLI@v2
         with:
           inlineScript: |
-            az containerapp update \
-              --name "$CONTAINER_APP_NAME" \
-              --resource-group "$RESOURCE_GROUP" \
-              --set-env-vars ASPNETCORE_URLS=http://+:8080
+            az containerapp update --name "$CONTAINER_APP_NAME" --resource-group "$RESOURCE_GROUP" --set-env-vars "ASPNETCORE_URLS=http://+:8080"
 
-            az containerapp ingress enable \
-              --name "$CONTAINER_APP_NAME" \
-              --resource-group "$RESOURCE_GROUP" \
-              --type external \
-              --target-port 8080 \
-
-              --transport auto
+            az containerapp ingress enable --name "$CONTAINER_APP_NAME" --resource-group "$RESOURCE_GROUP" --type external --target-port 8080 --transport auto
