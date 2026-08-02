@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SreAgentDemoApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f733bf4ec9b4ad472922ef2b9240b521fda2a896")]
 [assembly: System.Reflection.AssemblyProductAttribute("SreAgentDemoApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SreAgentDemoApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

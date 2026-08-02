@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/arunreddygoli/Downloads/SreAgentDemoApp/SreAgentDemoApp/SreAgentDemoApp.csproj": {}
+    "/Users/arunreddygoli/Downloads/sre-agent-demo-app/SreAgentDemoApp/SreAgentDemoApp.csproj": {}
   },
   "projects": {
-    "/Users/arunreddygoli/Downloads/SreAgentDemoApp/SreAgentDemoApp/SreAgentDemoApp.csproj": {
+    "/Users/arunreddygoli/Downloads/sre-agent-demo-app/SreAgentDemoApp/SreAgentDemoApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/arunreddygoli/Downloads/SreAgentDemoApp/SreAgentDemoApp/SreAgentDemoApp.csproj",
+        "projectUniqueName": "/Users/arunreddygoli/Downloads/sre-agent-demo-app/SreAgentDemoApp/SreAgentDemoApp.csproj",
         "projectName": "SreAgentDemoApp",
-        "projectPath": "/Users/arunreddygoli/Downloads/SreAgentDemoApp/SreAgentDemoApp/SreAgentDemoApp.csproj",
+        "projectPath": "/Users/arunreddygoli/Downloads/sre-agent-demo-app/SreAgentDemoApp/SreAgentDemoApp.csproj",
         "packagesPath": "/Users/arunreddygoli/.nuget/packages/",
-        "outputPath": "/Users/arunreddygoli/Downloads/SreAgentDemoApp/SreAgentDemoApp/obj/",
+        "outputPath": "/Users/arunreddygoli/Downloads/sre-agent-demo-app/SreAgentDemoApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/arunreddygoli/.nuget/NuGet/NuGet.Config"
