@@ -24,7 +24,7 @@ app.MapGet("/health", () => Results.Ok(new
 app.MapGet("/api/marketdata/{symbol}", (string symbol, ILogger<Program> logger) =>
 {
     // ================================================================
-    //   DEMO BUG INJECTION POINT
+       DEMO BUG INJECTION POINT
     //
     //   To simulate a bad production deployment during your SRE Agent
     //   demo: delete the two slashes ("//") at the start of the next
