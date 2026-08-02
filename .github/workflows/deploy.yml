@@ -1,4 +1,4 @@
-iname: Build and deploy SRE demo app
+name: Build and deploy SRE demo app
 
 on:
   push:
