@@ -32,7 +32,7 @@ app.MapGet("/api/marketdata/{symbol}", (string symbol, ILogger<Program> logger) 
     //
     //   To simulate the fix / rollback: put the "//" back and push again.
     // ================================================================
-    // throw new InvalidOperationException("Simulated outage: market data provider unreachable after latest deployment.");
+     throw new InvalidOperationException("Simulated outage: market data provider unreachable after latest deployment.");
 
     var price = GetSimulatedPrice(symbol);
     logger.LogInformation("Served price for {Symbol}: {Price}", symbol.ToUpperInvariant(), price);
